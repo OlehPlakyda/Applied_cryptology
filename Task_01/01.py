@@ -53,9 +53,9 @@ def decrypt_caesar(ciphertext, shift):
 
 
 def main():
-    encrypt_text = encrypt_caesar('Я, Плакида Олег Миколайович, студент університету.', 32)
+    encrypt_text = encrypt_caesar('Я, Плакида Олег Миколайович, студент університету.', 4)
     print(encrypt_text)
-    print(decrypt_caesar(encrypt_text, 32))
+    print(decrypt_caesar(encrypt_text, 4))
 
 
 main()
