@@ -1,6 +1,6 @@
 def encrypt_affine(plaintext, key, multiplier):
     """
-    Функція для шифрування тексту Лінійним шифром з ключем key
+    Функція для шифрування тексту Афінним шифром з ключем key та множником multiplier
     """
     ciphertext = ''
     small_symbols = 'абвгґдеєжзиіїйклмнопрстуфхцчшщьюя'
@@ -26,7 +26,7 @@ def encrypt_affine(plaintext, key, multiplier):
 
 def decrypt_affine(ciphertext, key, multiplier):
     """
-    Функція для розшифрування тексту, зашифрованого Лінійним шифром з ключем key
+    Функція для розшифрування тексту, зашифрованого Афінним шифром з ключем key та множником multiplier
     """
     plaintext = ''
     small_symbols = 'абвгґдеєжзиіїйклмнопрстуфхцчшщьюя'
