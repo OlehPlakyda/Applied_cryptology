@@ -55,8 +55,9 @@ def main():
     key = 5
     plaintext = 'Я, Плакида Олег Миколайович, студент університету.'
     encrypt_text = encrypt_linear(plaintext, key)
-    print(encrypt_text)
-    print(decrypt_linear(encrypt_text, key))
+    print('Текст: ', plaintext)
+    print('Зашифрований текст: ', encrypt_text)
+    print('Розшифрований текст:', decrypt_linear(encrypt_text, key))
 
 
 main()

@@ -52,8 +52,9 @@ def main():
     shift = 4
     plaintext = 'Я, Плакида Олег Миколайович, студент університету.'
     encrypt_text = encrypt_caesar(plaintext, shift)
-    print(encrypt_text)
-    print(decrypt_caesar(encrypt_text, shift))
+    print('Текст: ', plaintext)
+    print('Зашифрований текст: ', encrypt_text)
+    print('Розшифрований текст:', decrypt_caesar(encrypt_text, shift))
 
 
 main()
